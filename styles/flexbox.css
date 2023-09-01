@@ -1,0 +1,29 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/* 1fr 1fr 1fr para cada columna */
+    gap: 2rem;
+    /* display: flex; */
+    /*  flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+    /* width: 100px; */
+    /* justify-content: center; */
+
+}
+article{
+    display: inline;
+    border: 2px solid tomato;
+    padding: 1rem;
+}
